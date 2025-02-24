@@ -1,3 +1,35 @@
 .bg-radial{
   background: radial-gradient(118.21% 152.5% at 68.06% 108.79%, #DC0F69 0%, #F57D45 100%)
 }
+.bg-image {
+  background: 
+    url('./assets/bg-bubbles.png'),
+    radial-gradient(118.21% 152.5% at 68.06% 108.79%, #DC0F69 0%, #F57D45 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.button-bg{
+  background: radial-gradient(71.55% 100% at 23.76% 100%, #DC0F69 0%, #F57D45 100%)
+}
+.bg-border{
+  border: 2px solid #FFEBF4 ;
+  border-radius: 32px;
+  border-width: 1px;
+  border-style: solid;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
