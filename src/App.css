@@ -9,8 +9,16 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.smbg-image {
+  background: 
+    url('./assets/smbg-bubbles.png'),
+    radial-gradient(118.21% 152.5% at 68.06% 108.79%, #DC0F69 0%, #F57D45 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .button-bg{
-  background: radial-gradient(71.55% 100% at 23.76% 100%, #DC0F69 0%, #F57D45 100%)
+  background: linear-gradient(180deg, rgba(220, 15, 105, 0.1) -7.45%, #F57D45 7.49%, #DC0F69 117.02%);
 }
 .bg-border{
   border: 2px solid #FFEBF4 ;
